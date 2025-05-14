@@ -1,0 +1,19 @@
+[project]
+name = "font-proxy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cachelib>=0.13.0",
+    "flask>=3.1.0",
+    "requests>=2.32.3",
+]
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
